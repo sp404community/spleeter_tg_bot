@@ -1,6 +1,6 @@
 # Spleeter Telegram Bot
 
-Telegram бот для разделения аудио на дорожки + миди + питч калькулятор + bpm определитель + определитель тона. Сделал [Viktor Demin](https://github.com/Viktor-Demin) tg: [@vdiomin](htrtps://t.me/vdiomin)
+Telegram бот для разделения аудио на дорожки + миди + питч калькулятор + bpm определитель + определитель тона. Сделал Viktor Demin [@vdiomin](https://t.me/vdiomin)
 
 #### Что делает бот?
 Бот разбивает трек (mp3, wav, ogg) на дорожки по инструментам (STEMS) и присылает их в формате wav.
