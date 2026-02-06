@@ -1,0 +1,15 @@
+[Unit]
+Description=TG bot 'stemsplitter'
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/stembots
+ExecStart=/usr/bin/python3 /root/stembots/bot_spleeter_2stems.py
+RestartSec=10
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target
